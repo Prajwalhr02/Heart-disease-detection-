@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import joblib
 
-model = joblib.load("model.pkl")
+model = joblib.load("heart_disease_model.pkl")
 st.title("Heart Disease Predictor")
 
 sex_val = 1 if st.selectbox("Sex", ["Male", "Female"]) == "Male" else 0
