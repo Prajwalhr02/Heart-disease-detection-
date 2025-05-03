@@ -4,7 +4,7 @@ import joblib  # or pickle
 import numpy as np
 
 # Load trained model
-model = joblib.load('model.pkl')
+model = joblib.load('heart_disease_model.pkl')
 
 st.title("Heart Disease Prediction App")
 
